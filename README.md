@@ -1,0 +1,2 @@
+# firebaselistchallenge
+Classadoo generated repo
