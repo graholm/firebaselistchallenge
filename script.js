@@ -2,6 +2,8 @@ var input = $("")
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
+    console.log ("yay")
+
     var valueToSave = input.val();
     addListItem(valueToSave);
   }
