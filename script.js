@@ -1,5 +1,5 @@
 var input = $("#list-input")
-console.log (input)
+
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
 
