@@ -9,4 +9,5 @@ input.keydown(function(e) {
 
 onNewListItem("graceList", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
+  
 }) 
