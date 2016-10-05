@@ -1,14 +1,14 @@
-var input = $("")
-
+var input = $("#list-input")
+console.log (input)
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
-    console.log ("yay")
+
 
     var valueToSave = input.val();
     addListItem(valueToSave);
   }
 })
 
-onNewListItem("davidsList", function(value) {
+onNewListItem("graceList", function(value) {
   $("#list-display").append("<div>" + value + "</div>")
 }) 
